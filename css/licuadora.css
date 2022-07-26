@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.blender {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 250px;
+    height: 500px;
+    /* background-color: black; */
+    background-image: url("../img/73732fd51ac966233ef17bc96bab1118-ilustracion-de-batidora-de-cocina.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.blender.active {
+    background-image: url("../img/1619868685_25148_gif-url.gif");
+}
+
+.blender-button {
+    margin: 280px auto 0px;
+    width: 70px;
+    height: 70px;
+    /* background-color: antiquewhite; */
+}
